@@ -1,0 +1,48 @@
+header {
+    margin-top: 64px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 77px;
+        letter-spacing: -0.02em;
+    }
+
+    h2 {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+    }
+
+    .inputs {
+        margin-top: 48px;
+
+        form {
+            display: flex;
+            gap: 20px;
+
+            .name, .school {
+                display: flex;
+                flex-direction: column;
+                gap: 3px;
+            }
+
+            input {
+                width: 425px;
+            }
+
+            select {
+                width: 216px;
+            }
+
+            input, select {
+                height: 38px;
+                padding: 8px 15px;
+                border: 1px solid #CED4DA;
+                border-radius: 4px;
+            }
+        }
+    }
+}
